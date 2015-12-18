@@ -1,3 +1,4 @@
+//Template for C program
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -5,7 +6,7 @@
 
 int main() {
 
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    /* your code */    
     return 0;
 }
 
