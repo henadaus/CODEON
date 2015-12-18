@@ -152,8 +152,8 @@ int CF;
         Document doc=null;
         
        try{
-         // doc = Jsoup.connect(url).get();
-        doc = Jsoup.parse(new File("/home/hena/OnlineJudge/Problems-Codeforces1.html"),"utf-8"); 
+        doc = Jsoup.connect(url).get();
+        //doc = Jsoup.parse(new File("/home/hena/OnlineJudge/Problems-Codeforces1.html"),"utf-8"); 
         
        }
       catch(IOException e)
